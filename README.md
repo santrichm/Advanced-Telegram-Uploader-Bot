@@ -31,16 +31,18 @@ This project is an advanced uploader bot for Telegram that allows users to uploa
 ## Installation
 1. Clone this repository:
   
-   git clone https://github.com/santrichn/Advanced-Telegram-Uploader-Bot.git
-   cd Advanced-Telegram-Uploader-Bot
+       git clone https://github.com/santrichn/Advanced-Telegram-Uploader-Bot.git
    
-2. Edit the config.php file and enter the required values.
+       cd Advanced-Telegram-Uploader-Bot
+   
+3. Edit the config.php file and enter the required values.
 
-3. In the index.php file, set your bot token on line 47.
+4. In the index.php file, set your bot token on line 47.
 
-4. Set up cron jobs for api.php and delmsg.php to run every 1-2 minutes.
+5. Set up cron jobs for api.php and delmsg.php to run every 1-2 minutes.
 
-5. Open table.php in your web browser to access the bot.
+6. Open table.php in your web browser to access the bot.
+7. Set Webhook on index.php file
 
 ## Usage
 Follow the setup instructions to get the bot running. You can customize settings and manage uploads through the provided interface.
